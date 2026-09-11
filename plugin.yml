@@ -1,0 +1,11 @@
+name: RPGPlugin
+version: 1.0.0
+main: com.server.rpg.RPGPlugin
+api-version: '1.21'
+commands:
+  ah:
+    description: Аукцион
+    aliases: [auction]
+  pay:
+    description: Перевести монеты
+    usage: /pay <игрок> <сумма>
